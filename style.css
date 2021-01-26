@@ -7,12 +7,12 @@
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1.5fr 0.2fr;
     grid-template-areas: 
-    "nav nav"
-    "main main"
-    "footer footer";
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
 }
 /*------------------ Begin Menu ---------------*/
 nav {
@@ -76,6 +76,14 @@ footer {
 .footer-item:first-child {
     margin-right: auto;
     margin-left: 2rem;
+}
+.last-child-list{
+    margin-right: 50rem;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 .footer-item a:hover {
     color: green;
