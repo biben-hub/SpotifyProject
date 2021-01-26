@@ -22,7 +22,6 @@ nav {
 .nav-list {
     margin: 0;
     padding: 1rem 0;
-    border-radius: 3px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -36,16 +35,42 @@ nav {
     color: white;
     transition: all 200ms ease-in;
 }
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
 .nav-item a:hover {
     color: green;
 }
-
 /*------------------ End Menu ---------------*/
 
 /*------------------ Begin Footer ---------------*/
 footer {
     background-color: #000000;
     grid-area: footer;
+}
+.footer-list {
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+.footer-item a {
+    text-decoration: none;
+    color: white;
+    transition: all 200ms ease-in;
+}
+.footer-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+.footer-item a:hover {
+    color: green;
 }
 /*------------------ End Footer ---------------*/
 
