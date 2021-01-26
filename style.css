@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 0.2fr;
+    grid-template-areas: 
+    "nav nav"
+    "main main"
+    "footer footer";
+}
+/*------------------ Begin Menu ---------------*/
+nav {
+    background-color: #000000;
+    grid-area: nav;
+}
+/*------------------ End Menu ---------------*/
+
