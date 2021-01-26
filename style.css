@@ -44,6 +44,14 @@ nav {
 }
 /*------------------ End Menu ---------------*/
 
+/*------------------ Begin Main ---------------*/
+main {
+    background-color: rgb(51, 51, 51);
+    grid-area: main;
+}
+/*------------------ End Main ---------------*/
+
+
 /*------------------ Begin Footer ---------------*/
 footer {
     background-color: #000000;
