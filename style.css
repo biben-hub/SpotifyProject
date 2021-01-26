@@ -42,3 +42,11 @@ nav {
 
 /*------------------ End Menu ---------------*/
 
+/*------------------ Begin Footer ---------------*/
+footer {
+    background-color: #000000;
+    grid-area: footer;
+}
+/*------------------ End Footer ---------------*/
+
+
