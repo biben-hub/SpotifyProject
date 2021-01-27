@@ -60,17 +60,24 @@ main {
 .playlist-section{
     display: grid;
     height: 56.5vh;
+    width: 190vh;
+    margin-left: 30px;
 }
 .content-table{
     border-collapse: collapse;
     margin: 25px 0;
+    padding-left: 15px;
     font-size: small;
-    min-width: 400px;
+    min-width: auto;
 }
+
 .content-table thead tr{
     background-color: white;
     text-align: left;
     font-weight: bold;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #666666;
 }
 /*------------------ End Main ---------------*/
 
