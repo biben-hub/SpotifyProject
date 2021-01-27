@@ -50,12 +50,10 @@ main {
     grid-area: main;
 }
 .picture-album-container{
-    border: 1px red solid;
-    height: 10vh;
+    height: 15vh;
 }
-.like-container{
-    border: 1px red solid;
-    height: 5vh;
+.picture-album-container img{
+    margin: 5px 0  0 30px;
 }
 .playlist-section{
     display: grid;
