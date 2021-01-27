@@ -77,6 +77,9 @@ main {
 .content-table tbody tr{
     border-bottom: 1px solid #666666;
 }
+.content-table tbody td{
+    color: white;
+}
 /*------------------ End Main ---------------*/
 
 
