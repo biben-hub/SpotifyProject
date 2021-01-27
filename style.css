@@ -70,6 +70,7 @@ main {
 .content-table thead tr{
     background-color: white;
     text-align: left;
+    font-weight: bold;
 }
 /*------------------ End Main ---------------*/
 
