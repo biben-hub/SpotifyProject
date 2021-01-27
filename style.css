@@ -59,12 +59,17 @@ main {
 }
 .playlist-section{
     display: grid;
-    border: 1px red solid;
     height: 56.5vh;
 }
 .content-table{
     border-collapse: collapse;
     margin: 25px 0;
+    font-size: small;
+    min-width: 400px;
+}
+.content-table thead tr{
+    background-color: white;
+    text-align: left;
 }
 /*------------------ End Main ---------------*/
 
