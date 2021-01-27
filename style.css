@@ -49,6 +49,23 @@ main {
     background-color: rgb(51, 51, 51);
     grid-area: main;
 }
+.picture-album-container{
+    border: 1px red solid;
+    height: 10vh;
+}
+.like-container{
+    border: 1px red solid;
+    height: 5vh;
+}
+.playlist-section{
+    display: grid;
+    border: 1px red solid;
+    height: 56.5vh;
+}
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+}
 /*------------------ End Main ---------------*/
 
 
